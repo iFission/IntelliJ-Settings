@@ -2,12 +2,10 @@
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
+    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta back_slash" />
-  </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -28,5 +26,11 @@
   </action>
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
 </keymap>
