@@ -13,14 +13,23 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="QuickChangeScheme" />
+  <action id="RecentFiles" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="ToggleBookmark1" />
   <action id="ToggleBookmark2" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="meta alt back_slash" />
   </action>
