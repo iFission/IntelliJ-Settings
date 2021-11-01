@@ -1,4 +1,4 @@
-<keymap version="1" name="Sublime Text (Mac OS X) copy" parent="Sublime Text (Mac OS X)">
+<keymap version="1" name="iFission" parent="Sublime Text (Mac OS X)">
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
@@ -17,17 +17,31 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="meta alt 3" />
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="EditorTextEnd" />
   <action id="EditorTextStart" />
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta z" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup" />
+  <action id="Github.PullRequest.Comments.Reload" />
+  <action id="Github.PullRequest.Details.Reload" />
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="shift meta 5" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -61,6 +75,8 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="RecentFiles" />
+  <action id="Refresh" />
+  <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
@@ -77,12 +93,14 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
+  <action id="Svn.RefreshWorkingCopies" />
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-selectLastRow" />
   <action id="ToggleBookmark1" />
   <action id="ToggleBookmark2" />
+  <action id="Vcs.Log.Refresh" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
