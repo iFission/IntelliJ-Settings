@@ -1,11 +1,17 @@
 <keymap version="1" name="iFission" parent="Sublime Text (Mac OS X)">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
-  <action id="ActivateFindToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+  </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
@@ -14,15 +20,20 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
-  <action id="ActivateRunToolWindow" />
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
-  <action id="CollapseSelection" />
-  <action id="Console.History.Browse" />
-  <action id="Coverage">
+  <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
+  <action id="CollapseSelection" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="meta alt 3" />
@@ -30,18 +41,43 @@
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="EditorTextEnd" />
   <action id="EditorTextStart" />
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta z" />
   </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 2" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup" />
+  <action id="FindNext" />
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
   <action id="FindPrevious" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="GotoAction">
@@ -51,21 +87,33 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="f12" />
-    <keyboard-shortcut first-keystroke="meta alt down" />
-    <mouse-shortcut keystroke="button2" />
-    <mouse-shortcut keystroke="shift meta button1" />
-    <keyboard-shortcut first-keystroke="shift meta 5" />
+    <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
-  <action id="GotoSymbol" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="GotoSuperMethod" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta t" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Macro.Format and Save">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="Markdown.Styling.CreateLink" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -74,6 +122,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta up" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="NewScratchFile" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -89,10 +138,18 @@
   </action>
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="shift meta 2" />
+  </action>
+  <action id="QuickJumpAction">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="QuickTypeDefinition">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
   </action>
   <action id="RecentFiles" />
   <action id="Refresh" />
+  <action id="Replace" />
   <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta e" />
@@ -104,6 +161,13 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl meta d" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl meta alt d" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta period" />
@@ -119,8 +183,18 @@
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-selectLastRow" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="ToggleBookmark1" />
   <action id="ToggleBookmark2" />
+  <action id="Tree-selectNext">
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
