@@ -57,7 +57,6 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="meta alt 3" />
-    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -123,6 +122,10 @@
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 2" />
+  </action>
+  <action id="Educational.Check">
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
