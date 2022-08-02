@@ -60,6 +60,7 @@
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorCompleteStatement">
@@ -214,6 +215,8 @@
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta s" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -224,6 +227,11 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta o" />
   </action>
+  <action id="OpenInRightSplit">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="PerforceDirect.Edit" />
   <action id="PlaybackLastMacro" />
   <action id="PrevSplitter">
@@ -231,6 +239,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
@@ -285,6 +295,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl meta alt d" />
   </action>
+  <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -313,6 +324,7 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="Terminal.PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
@@ -325,6 +337,14 @@
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="TerminalSplitActionBase$Horizontal">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 2" />
+  </action>
+  <action id="TerminalSplitActionBase$Vertical">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
   </action>
   <action id="ToggleBookmark1" />
   <action id="ToggleBookmark2" />
