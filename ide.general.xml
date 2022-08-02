@@ -12,5 +12,6 @@
     <entry key="ide.tree.ui.experimental" value="false" />
     <entry key="completion.stats.show.ml.ranking.diff" value="true" />
     <entry key="ide.tooltip.initialDelay" value="1198" />
+    <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
   </component>
 </application>
