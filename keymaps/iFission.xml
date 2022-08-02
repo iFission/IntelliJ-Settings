@@ -381,6 +381,10 @@
   </action>
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.RollbackChangedLines">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
+  </action>
   <action id="Vcs.Show.Log">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g" />
   </action>
