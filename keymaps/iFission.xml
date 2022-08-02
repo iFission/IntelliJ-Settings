@@ -33,6 +33,12 @@
     <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
@@ -153,6 +159,12 @@
   <action id="FocusEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
