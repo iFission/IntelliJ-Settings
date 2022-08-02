@@ -64,6 +64,7 @@
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="shift meta 1" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl x" />

@@ -3,7 +3,7 @@
     <property name="created">2022-08-02T11:14:57</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-08-02T11:40:35</property>
+    <property name="modified">2022-08-02T11:55:18</property>
     <property name="originalScheme">_@user_One Dark Vivid</property>
   </metaInfo>
   <colors>
@@ -56,7 +56,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="606368" />
     <option name="SELECTED_INDENT_GUIDE" value="606368" />
     <option name="SELECTED_TEARLINE_COLOR" value="6b6e73" />
-    <option name="SELECTION_BACKGROUND" value="" />
+    <option name="SELECTION_BACKGROUND" value="82c3c" />
     <option name="SEPARATOR_BELOW_COLOR" value="" />
     <option name="TAB_UNDERLINE" value="" />
     <option name="TEARLINE_COLOR" value="10611" />
@@ -996,6 +996,9 @@
         <option name="FOREGROUND" value="89ca78" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ef596f" />
@@ -1218,13 +1221,8 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
-    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
-      <value />
-    </option>
     <option name="KOTLIN_LABEL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
@@ -1462,7 +1460,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="515a6b" />
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
