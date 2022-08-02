@@ -62,6 +62,9 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>

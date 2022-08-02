@@ -21,6 +21,42 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="club.nutsoft.Github3Theme">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.arcticicestudio.nord.jetbrains">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.fernandojimenez.obsidian.theme">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.jetbrains.edu">
           <value>
             <PluginData />
@@ -48,12 +84,35 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.vermouthx.xcode-theme">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="monokai-pro">
           <value>
             <PluginData>
               <option name="category" value="UI" />
               <option name="dependencies">
                 <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.jumpToLine">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>

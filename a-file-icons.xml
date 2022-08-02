@@ -2,5 +2,7 @@
   <component name="AtomFileIconsConfig">
     <option name="hideFileIcons" value="true" />
     <option name="isHideFileIcons" value="true" />
+    <option name="accentColor" value="ffd76d" />
+    <option name="themedColor" value="767b81" />
   </component>
 </application>
