@@ -278,12 +278,22 @@
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
   <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta z" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta x" />
+  </action>
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="shift ctrl meta r" />
@@ -321,6 +331,12 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta 1" />
+  </action>
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta z" />
+  </action>
+  <action id="StretchSplitToRight">
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta x" />
   </action>
   <action id="Svn.RefreshWorkingCopies" />
   <action id="Switcher" />
