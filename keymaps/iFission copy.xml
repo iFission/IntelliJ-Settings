@@ -1,4 +1,4 @@
-<keymap version="1" name="iFission" parent="Sublime Text (Mac OS X)">
+<keymap version="1" name="iFission copy" parent="Sublime Text (Mac OS X)">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
@@ -287,14 +287,13 @@
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift meta 2" />
-    <mouse-shortcut keystroke="alt button1" />
-  </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
   </action>
   <action id="QuickJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="QuickTypeDefinition">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
