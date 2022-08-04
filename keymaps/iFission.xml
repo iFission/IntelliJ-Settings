@@ -241,6 +241,10 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
+  </action>
   <action id="NewScratchFile" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
