@@ -382,6 +382,9 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
