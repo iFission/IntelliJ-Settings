@@ -334,6 +334,7 @@
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="ctrl 5" />
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
