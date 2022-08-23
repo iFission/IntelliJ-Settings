@@ -7,6 +7,7 @@
     <option name="INDENT_GUIDE" value="3b3a32" />
     <option name="LINE_NUMBERS_COLOR" value="293941" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4b666f" />
+    <option name="MODIFIED_TAB_ICON" value="" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="49483e" />
     <option name="TAB_UNDERLINE" value="74b4" />
@@ -1648,6 +1649,9 @@
       </value>
     </option>
     <option name="TAB_SELECTED">
+      <value />
+    </option>
+    <option name="TAB_SELECTED_INACTIVE">
       <value />
     </option>
     <option name="TAG_ATTR_KEY">
