@@ -374,6 +374,9 @@
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Macro.Format and Save">
     <keyboard-shortcut first-keystroke="meta s" />
