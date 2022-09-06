@@ -246,6 +246,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="EditorScrollToCenter" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta 2" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
@@ -377,6 +381,9 @@
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
   </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Macro.Format and Save">
     <keyboard-shortcut first-keystroke="meta s" />
@@ -387,6 +394,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl q" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
+  </action>
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
