@@ -69,6 +69,9 @@
     <keyboard-shortcut first-keystroke="shift meta g" />
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
@@ -325,6 +328,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="GitToolBox.BlameDetails">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="GotoAction">
@@ -379,9 +385,6 @@
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="InvalidateCaches">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
-  </action>
-  <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
   </action>
   <action id="List-selectLastRow" />
@@ -395,11 +398,11 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
-  <action id="MethodDown" />
-  <action id="MethodUp" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
@@ -735,4 +738,6 @@
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="sql.SelectInDatabaseView" />
+  <action id="tasks.open.in.browser" />
 </keymap>
