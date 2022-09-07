@@ -127,6 +127,7 @@
   <action id="Compile" />
   <action id="CompileFile" />
   <action id="Console.History.Browse" />
+  <action id="Console.TableResult.CloneColumn" />
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
@@ -577,6 +578,7 @@
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl meta d" />
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl meta alt d" />
@@ -709,6 +711,7 @@
     <keyboard-shortcut first-keystroke="shift meta 1" />
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
+  <action id="UML.ShowChanges" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.OpenAnotherTab">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta g" />
