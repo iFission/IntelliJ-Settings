@@ -123,6 +123,7 @@
         <option name="flattenPackages" value="true" />
         <option name="hideEmptyMiddlePackages" value="true" />
         <option name="showLibraryContents" value="true" />
+        <option name="showVisibilityIcons" value="true" />
       </component>
       <component name="PropertiesComponent">
         <property name="android.project.structure.last.selected" value="SDK Location" />

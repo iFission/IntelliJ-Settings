@@ -7,7 +7,6 @@
     <option name="INDENT_GUIDE" value="3b3a32" />
     <option name="LINE_NUMBERS_COLOR" value="293941" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4b666f" />
-    <option name="MODIFIED_TAB_ICON" value="" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="49483e" />
     <option name="TAB_UNDERLINE" value="74b4" />
@@ -22,7 +21,9 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="BACKGROUND" value="743d3d" />
+      </value>
     </option>
     <option name="BUILDOUT.KEY">
       <value>
@@ -762,15 +763,15 @@
         <option name="FOREGROUND" value="616671" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="2499da" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="a6e32d" />
@@ -781,14 +782,14 @@
         <option name="FOREGROUND" value="4be32d" />
       </value>
     </option>
-    <option name="HAML_TAG" baseAttributes="TEXT" />
+    <option name="HAML_TAG" baseAttributes="" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="2499da" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -1649,9 +1650,6 @@
       </value>
     </option>
     <option name="TAB_SELECTED">
-      <value />
-    </option>
-    <option name="TAB_SELECTED_INACTIVE">
       <value />
     </option>
     <option name="TAG_ATTR_KEY">
