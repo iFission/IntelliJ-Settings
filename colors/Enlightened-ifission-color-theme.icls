@@ -3,7 +3,7 @@
     <property name="created">2022-09-07T10:42:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-09-07T10:43:59</property>
+    <property name="modified">2022-09-07T10:47:53</property>
     <property name="originalScheme">Enlightened-ifission-color-theme</property>
   </metaInfo>
   <colors>
@@ -21,6 +21,18 @@
     <option name="WHITESPACES" value="3b3a32" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a279ec" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="22c1e0" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="f8f8f0" />
@@ -28,9 +40,7 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="743d3d" />
-      </value>
+      <value />
     </option>
     <option name="BUILDOUT.KEY">
       <value>
@@ -554,7 +564,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="a6e32d" />
+        <option name="FOREGROUND" value="4adb2e" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
