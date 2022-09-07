@@ -69,6 +69,11 @@
     <keyboard-shortcut first-keystroke="shift meta g" />
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -78,7 +83,6 @@
   </action>
   <action id="BreakpointActionsGroup">
     <keyboard-shortcut first-keystroke="meta b" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="ChangeKeymap">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta s" />
@@ -90,6 +94,7 @@
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta alt e" />
@@ -244,6 +249,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="EditorScrollToCenter" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta 2" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
@@ -319,6 +328,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="GitToolBox.BlameDetails">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="GotoAction">
@@ -334,6 +346,7 @@
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="ctrl 5" />
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
@@ -371,6 +384,10 @@
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Macro.Format and Save">
     <keyboard-shortcut first-keystroke="meta s" />
@@ -382,6 +399,11 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
@@ -391,10 +413,12 @@
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="meta alt up" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
@@ -477,7 +501,9 @@
     <keyboard-shortcut first-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
-  <action id="QuickChangeScheme" />
+  <action id="QuickChangeScheme">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl t" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift meta 2" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
@@ -670,6 +696,10 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl f" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="ctrl 9" />
@@ -711,4 +741,6 @@
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="sql.SelectInDatabaseView" />
+  <action id="tasks.open.in.browser" />
 </keymap>
