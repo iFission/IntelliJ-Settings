@@ -610,6 +610,7 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="SonarLint.AnalyzeFiles" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta 2" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl 2" />
