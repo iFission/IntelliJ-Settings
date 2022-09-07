@@ -1,4 +1,11 @@
 <scheme name="Enlightened-ifission-color-theme" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2022-09-07T10:42:00</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.2.0.0</property>
+    <property name="modified">2022-09-07T10:43:59</property>
+    <property name="originalScheme">Enlightened-ifission-color-theme</property>
+  </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="f808" />
     <option name="CARET_ROW_COLOR" value="21424" />
@@ -7,7 +14,6 @@
     <option name="INDENT_GUIDE" value="3b3a32" />
     <option name="LINE_NUMBERS_COLOR" value="293941" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4b666f" />
-    <option name="MODIFIED_TAB_ICON" value="" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="49483e" />
     <option name="TAB_UNDERLINE" value="74b4" />
@@ -22,7 +28,9 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="BACKGROUND" value="743d3d" />
+      </value>
     </option>
     <option name="BUILDOUT.KEY">
       <value>
@@ -1649,9 +1657,6 @@
       </value>
     </option>
     <option name="TAB_SELECTED">
-      <value />
-    </option>
-    <option name="TAB_SELECTED_INACTIVE">
       <value />
     </option>
     <option name="TAG_ATTR_KEY">
