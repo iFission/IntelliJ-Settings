@@ -1,0 +1,5 @@
+<application>
+  <component name="LogItSettings">
+    <option name="pattern" value="println(&quot;$$: &quot; + $$.toString());" />
+  </component>
+</application>
