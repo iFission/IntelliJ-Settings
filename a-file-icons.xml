@@ -7,6 +7,7 @@
     <option name="isUseHollowFolders" value="false" />
     <option name="accentColor" value="ffd76d" />
     <option name="themedColor" value="767b81" />
+    <option name="hasBigIcons" value="true" />
     <option name="customIconSize" value="16" />
   </component>
 </application>
