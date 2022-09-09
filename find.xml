@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'solex-fund-order-read-write-service'" />
-    <option name="defaultScopeName" value="Project 'solex-fund-order-read-write-service'" />
-    <option name="SEARCH_SCOPE" value="Project 'solex-fund-order-read-write-service'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*test.kt" />
     <mask>*test.kt</mask>
   </component>
