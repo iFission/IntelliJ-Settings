@@ -249,6 +249,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.lso.logit">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.sonarlint.idea">
           <value>
             <PluginData>

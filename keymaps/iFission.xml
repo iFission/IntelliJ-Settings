@@ -286,6 +286,7 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileChooserList.LevelUp" />
   <action id="FileStructurePopup">
@@ -753,6 +754,7 @@
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
     <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
