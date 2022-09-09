@@ -750,6 +750,10 @@
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.lso.logit.addLog">
+    <keyboard-shortcut first-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
   <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
 </keymap>
