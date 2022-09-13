@@ -1,0 +1,20 @@
+<application>
+  <component name="PipelineViewerConfigApp">
+    <option name="ignoredRemotes">
+      <list>
+        <option value="https://gitlab.csintra.net/solex/backend/testing/solex-executions-testing/" />
+      </list>
+    </option>
+    <option name="mappings">
+      <list>
+        <Mapping>
+          <option name="gitlabProjectId" value="7175" />
+          <option name="host" value="https://gitlab.csintra.net" />
+          <option name="projectName" value="solex-oms-umbrella-chart" />
+          <option name="projectPath" value="solex/backend/deployments/helm/solex-oms-umbrella-chart" />
+          <option name="remote" value="https://gitlab.csintra.net/solex/backend/deployments/helm/solex-oms-umbrella-chart" />
+        </Mapping>
+      </list>
+    </option>
+  </component>
+</application>
