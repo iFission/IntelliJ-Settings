@@ -1,9 +1,9 @@
 <application>
   <component name="PipelineViewerConfigApp">
-    <option name="alwaysMonitorHosts">
-      <set>
-        <option value="https://gitlab.csintra.net" />
-      </set>
+    <option name="ignoredRemotes">
+      <list>
+        <option value="https://gitlab.csintra.net/solex/backend/testing/solex-executions-testing/" />
+      </list>
     </option>
     <option name="mappings">
       <list>
