@@ -3,7 +3,7 @@
     <property name="created">2022-09-07T10:42:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-09-07T10:47:53</property>
+    <property name="modified">2022-09-13T16:34:10</property>
     <property name="originalScheme">Enlightened-ifission-color-theme</property>
   </metaInfo>
   <colors>
@@ -855,6 +855,41 @@
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="18181c" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="151c19" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="1b1c18" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="1e1a17" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="1e1615" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="1e1213" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="1f0808" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">

@@ -3,6 +3,7 @@
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
@@ -484,6 +485,41 @@
         <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="353c43" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="333f41" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="384040" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="3b3d3f" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="3b393d" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="3b363b" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="38262a" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="aeae80" />
@@ -578,12 +614,6 @@
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value />
-    </option>
-    <option name="SASS_MIXIN">
-      <value>
-        <option name="FOREGROUND" value="8080" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
     </option>
     <option name="SCOPE_KEY_All">
       <value />
