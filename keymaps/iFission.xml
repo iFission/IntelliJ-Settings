@@ -123,6 +123,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileFile" />
@@ -391,10 +394,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
   </action>
   <action id="List-selectLastRow" />
-  <action id="Macro.Format and Save">
-    <keyboard-shortcut first-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
   <action id="Markdown.Styling.CreateLink" />
   <action id="MaximizeEditorInSplit">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
