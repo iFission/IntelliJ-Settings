@@ -154,6 +154,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.kagof.pokeprogress">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.mallowigi">
           <value>
             <PluginData>
