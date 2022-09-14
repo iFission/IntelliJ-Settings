@@ -1,9 +1,9 @@
 <scheme name="_@user_High contrast" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-09-13T16:32:10</property>
+    <property name="created">2022-09-13T16:32:24</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-09-13T16:34:10</property>
+    <property name="ideVersion">2022.1.2.0.0</property>
+    <property name="modified">2022-09-13T16:54:16</property>
     <property name="originalScheme">High contrast</property>
   </metaInfo>
   <colors>
@@ -74,7 +74,7 @@
     <option name="ScrollBar.Transparent.hoverTrackColor" value="e6e6e65a" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="0" />
     <option name="ScrollBar.Transparent.thumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Transparent.trackColor" value="e6e6e60" />
+    <option name="ScrollBar.Transparent.trackColor" value="6e6e60" />
     <option name="ScrollBar.background" value="0" />
     <option name="ScrollBar.hoverThumbBorderColor" value="0" />
     <option name="ScrollBar.hoverThumbColor" value="ffffffbe" />
@@ -558,37 +558,37 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="28292d" />
+        <option name="BACKGROUND" value="202124" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="262c2b" />
+        <option name="BACKGROUND" value="1f2322" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="2c2d2a" />
+        <option name="BACKGROUND" value="222321" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="2f2b29" />
+        <option name="BACKGROUND" value="242221" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">
       <value>
-        <option name="BACKGROUND" value="2f2627" />
+        <option name="BACKGROUND" value="241f20" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_6">
       <value>
-        <option name="BACKGROUND" value="2f2325" />
+        <option name="BACKGROUND" value="241d1e" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
       <value>
-        <option name="BACKGROUND" value="2d1617" />
+        <option name="BACKGROUND" value="231516" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
