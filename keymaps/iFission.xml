@@ -115,6 +115,7 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="CodeGlance.toggle" />
   <action id="CollapseAllRegions" />
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
