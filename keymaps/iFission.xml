@@ -766,6 +766,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
   <action id="android.deploy.CodeSwap" />
+  <action id="com.dubreuia.core.action.ShortcutAction">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
