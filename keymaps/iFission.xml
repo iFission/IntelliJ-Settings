@@ -115,6 +115,7 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="CodeGlance.toggle" />
   <action id="CollapseAllRegions" />
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -757,10 +758,6 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
