@@ -408,9 +408,7 @@
   </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta u" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl u" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -440,7 +438,9 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
   </action>
-  <action id="NewScratchFile" />
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
@@ -623,36 +623,46 @@
   <action id="TabShiftActions.MoveFocusDown">
     <keyboard-shortcut first-keystroke="shift ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl s" />
   </action>
   <action id="TabShiftActions.MoveFocusLeft">
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl a" />
   </action>
   <action id="TabShiftActions.MoveFocusRight">
     <keyboard-shortcut first-keystroke="shift ctrl alt close_bracket" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl d" />
   </action>
   <action id="TabShiftActions.MoveFocusUp">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
   </action>
   <action id="TabShiftActions.ShiftDown">
     <keyboard-shortcut first-keystroke="shift alt semicolon" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl k" />
   </action>
   <action id="TabShiftActions.ShiftLeft">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl j" />
   </action>
   <action id="TabShiftActions.ShiftRight">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
   </action>
   <action id="TabShiftActions.ShiftUp">
     <keyboard-shortcut first-keystroke="shift alt p" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
   </action>
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
@@ -666,7 +676,6 @@
   <action id="Terminal.NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
@@ -686,7 +695,6 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
