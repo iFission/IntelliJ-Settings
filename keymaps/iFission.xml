@@ -357,18 +357,17 @@
   <action id="GotoBookmark2" />
   <action id="GotoBookmark9" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="shift control button1" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -393,10 +392,6 @@
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t" />
-  </action>
-  <action id="GotoTypeDeclaration">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
@@ -494,13 +489,8 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta t" />
   </action>
   <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="shift meta 2" />
-    <keyboard-shortcut first-keystroke="shift ctrl 2" />
     <mouse-shortcut keystroke="alt button1" />
-  </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl 2" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="QuickJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
