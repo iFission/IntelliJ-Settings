@@ -355,6 +355,7 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
+  <action id="GotoBookmark5" />
   <action id="GotoBookmark9" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="button2" />
@@ -490,6 +491,8 @@
   </action>
   <action id="QuickImplementations">
     <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="QuickJumpAction">
