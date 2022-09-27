@@ -513,6 +513,7 @@
   </action>
   <action id="QuickImplementations">
     <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
