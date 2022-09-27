@@ -71,7 +71,6 @@
   </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt b" />
-    <keyboard-shortcut first-keystroke="shift meta alt b" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -92,6 +91,10 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="alt r" />
@@ -102,8 +105,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="w" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -116,6 +119,7 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="CodeGlance.toggle" />
   <action id="CollapseAllRegions" />
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -294,8 +298,7 @@
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileChooserList.LevelUp" />
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="shift meta 8" />
-    <keyboard-shortcut first-keystroke="shift ctrl 8" />
+    <keyboard-shortcut first-keystroke="ctrl 8" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -334,9 +337,12 @@
     <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="Git.Add">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl a" />
+  </action>
   <action id="GitToolBox.BlameDetails">
     <keyboard-shortcut first-keystroke="alt b" />
-    <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
@@ -348,22 +354,21 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="shift control button1" />
-    <keyboard-shortcut first-keystroke="shift meta 2" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
-    <keyboard-shortcut first-keystroke="shift meta 2" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -382,17 +387,11 @@
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="meta 8" />
-    <keyboard-shortcut first-keystroke="ctrl 8" />
+    <keyboard-shortcut first-keystroke="shift ctrl 8" />
   </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t" />
-  </action>
-  <action id="GotoTypeDeclaration">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl 5" />
-    <keyboard-shortcut first-keystroke="shift meta 2" />
   </action>
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
@@ -412,9 +411,7 @@
   </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta u" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl u" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -444,17 +441,9 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
   </action>
-  <action id="NewScratchFile" />
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt tab" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl l" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl k" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl s" />
+  <action id="NewScratchBuffer">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -480,18 +469,6 @@
   <action id="PackageFile" />
   <action id="PerforceDirect.Edit" />
   <action id="PlaybackLastMacro" />
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="shift alt tab" />
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl j" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl a" />
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
-  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
@@ -513,11 +490,9 @@
   </action>
   <action id="QuickImplementations">
     <mouse-shortcut keystroke="alt button1" />
-    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 2" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl 2" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="QuickJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -646,6 +621,50 @@
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="TabShiftActions.MoveFocusDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt semicolon" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl s" />
+  </action>
+  <action id="TabShiftActions.MoveFocusLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl a" />
+  </action>
+  <action id="TabShiftActions.MoveFocusRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl d" />
+  </action>
+  <action id="TabShiftActions.MoveFocusUp">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
+  </action>
+  <action id="TabShiftActions.ShiftDown">
+    <keyboard-shortcut first-keystroke="shift alt semicolon" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl k" />
+  </action>
+  <action id="TabShiftActions.ShiftLeft">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl j" />
+  </action>
+  <action id="TabShiftActions.ShiftRight">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta o" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl o" />
+  </action>
+  <action id="TabShiftActions.ShiftUp">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
+  </action>
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
@@ -658,7 +677,6 @@
   <action id="Terminal.NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta d" />
@@ -678,7 +696,6 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
-    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta a" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
@@ -748,11 +765,11 @@
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
   <action id="android.deploy.CodeSwap" />
+  <action id="com.dubreuia.core.action.ShortcutAction">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
