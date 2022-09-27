@@ -48,6 +48,10 @@
     <keyboard-shortcut first-keystroke="ctrl 1" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+    <keyboard-shortcut first-keystroke="meta alt m" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="shift meta e" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -290,6 +294,9 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -406,6 +413,9 @@
   </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="MaximizeEditorInSplit">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
