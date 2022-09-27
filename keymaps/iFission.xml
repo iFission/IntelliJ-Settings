@@ -307,6 +307,7 @@
   <action id="FileChooserList.LevelUp" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl 8" />
+    <keyboard-shortcut first-keystroke="meta 8" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -402,6 +403,7 @@
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl 8" />
+    <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t" />
