@@ -404,6 +404,9 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t" />
   </action>
+  <action id="Gradle.ExecuteTask">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
@@ -758,6 +761,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
   <action id="UML.ShowChanges" />
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="q" />
+  </action>
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.OpenAnotherTab">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta g" />
