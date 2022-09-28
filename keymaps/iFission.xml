@@ -417,9 +417,13 @@
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
+  <action id="IncrementalSearch" />
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
+  </action>
+  <action id="Ktlint.Format">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
@@ -526,6 +530,7 @@
     <keyboard-shortcut first-keystroke="ctrl 5" />
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="QuickJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -775,6 +780,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="q" />
   </action>
+  <action id="UsageFiltering.Imports" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.Module" />
   <action id="Vcs.Log.OpenAnotherTab">
@@ -813,6 +819,7 @@
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
