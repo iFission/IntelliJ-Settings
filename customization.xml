@@ -1,6 +1,6 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="TouchBar" is_group="true" action_type="-1" position="19">
+    <group value="Vcs.Operations.Popup" is_group="true" action_type="-1" position="19">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -8,7 +8,7 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Operations.Popup" is_group="true" action_type="-1" position="18">
+    <group value="TouchBar" is_group="true" action_type="-1" position="19">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -16,7 +16,11 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" action_type="-1" position="17">
+    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" action_type="-1" position="18">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Vcs.Operations.Popup" is_group="true" action_type="-1" position="18">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -24,7 +28,11 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ChangesViewToolbar" is_group="true" action_type="-1" position="16">
+    <group value="ChangesViewToolbar" is_group="true" action_type="-1" position="17">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" action_type="-1" position="17">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -32,11 +40,23 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Markdown.Toolbar.Floating" is_group="true" action_type="-1" position="15">
+    <group value="Markdown.Toolbar.Floating" is_group="true" action_type="-1" position="16">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangesViewToolbar" is_group="true" action_type="-1" position="16">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="EmulatorToolbar" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EmulatorToolbar" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Markdown.Toolbar.Floating" is_group="true" action_type="-1" position="15">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -147,6 +167,12 @@
     </group>
     <group value="MainMenu" is_group="true" action_type="-1" position="0">
       <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="LightrunToolbarActionGroup" is_group="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="MainMenu" is_group="true" action_type="-1" position="0">
