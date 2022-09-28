@@ -116,8 +116,8 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="w" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -188,14 +188,10 @@
     <mouse-shortcut keystroke="meta button2" />
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
     <keyboard-shortcut first-keystroke="shift meta up" />
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="shift meta down" />
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
@@ -418,6 +414,9 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t" />
   </action>
+  <action id="Gradle.ExecuteTask">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
@@ -432,8 +431,12 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
-  <action id="MethodDown" />
-  <action id="MethodUp" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
@@ -769,6 +772,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
   <action id="UML.ShowChanges" />
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="q" />
+  </action>
   <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.Module" />
   <action id="Vcs.Log.OpenAnotherTab">
@@ -796,6 +802,9 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
+  <action id="WelcomeScreen.Plugins">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl x" />
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="com.dubreuia.core.action.ShortcutAction">
