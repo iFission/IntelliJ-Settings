@@ -41,6 +41,8 @@
   <action id="ActivateGradleToolWindow">
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -95,6 +97,7 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
@@ -107,6 +110,10 @@
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta alt e" />
     <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
@@ -297,6 +304,8 @@
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
+  <action id="ExtractFunction" />
+  <action id="ExtractMethod" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -738,6 +747,7 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
   </action>
   <action id="TextSearchAction" />
+  <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark1" />
   <action id="ToggleBookmark2" />
   <action id="ToggleBookmark8" />
@@ -760,6 +770,7 @@
   </action>
   <action id="UML.ShowChanges" />
   <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageGrouping.Module" />
   <action id="Vcs.Log.OpenAnotherTab">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta g" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl g" />
