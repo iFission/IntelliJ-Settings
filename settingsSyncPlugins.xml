@@ -469,6 +469,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="dev.lankydan.tranquil">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="hg4idea">
           <value>
             <PluginData>
