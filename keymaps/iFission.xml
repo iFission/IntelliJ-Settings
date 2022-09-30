@@ -106,8 +106,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="w" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -179,11 +179,11 @@
   </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
@@ -407,9 +407,16 @@
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="Gradle.ExecuteTask">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="IncrementalSearch" />
   <action id="InvalidateCaches">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
+  </action>
+  <action id="Ktlint.Format">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
@@ -422,10 +429,12 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />    <keyboard-shortcut first-keystroke="shift meta down" />
+
   </action>
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+        <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -516,6 +525,7 @@
     <keyboard-shortcut first-keystroke="ctrl 5" />
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="QuickJumpAction">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -762,7 +772,8 @@
   </action>
   <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="q" />
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="q" />
+<keyboard-shortcut first-keystroke="meta j" second-keystroke="q" />
   </action>
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.OpenAnotherTab">
@@ -794,6 +805,9 @@
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta x" />
   </action>
+  <action id="WelcomeScreen.Plugins">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl x" />
+  </action>
   <action id="android.deploy.CodeSwap" />
   <action id="com.dubreuia.core.action.ShortcutAction">
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -801,6 +815,7 @@
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
