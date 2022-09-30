@@ -405,9 +405,6 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t" />
   </action>
   <action id="Gradle.ExecuteTask">
-    <keyboard-shortcut first-keystroke="shift meta m" />
-  </action>
-  <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="IncrementalSearch" />
@@ -429,12 +426,12 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />    <keyboard-shortcut first-keystroke="shift meta down" />
-
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
-        <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -772,8 +769,8 @@
   </action>
   <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
-        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="q" />
-<keyboard-shortcut first-keystroke="meta j" second-keystroke="q" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="q" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="q" />
   </action>
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.OpenAnotherTab">
@@ -801,9 +798,6 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
-  </action>
-  <action id="WelcomeScreen.Plugins">
-    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta x" />
   </action>
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl x" />
