@@ -177,14 +177,8 @@
     <mouse-shortcut keystroke="control button2" />
     <mouse-shortcut keystroke="meta button2" />
   </action>
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
-    <keyboard-shortcut first-keystroke="shift meta up" />
-  </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
+  <action id="EditorCloneCaretAbove" />
+  <action id="EditorCloneCaretBelow" />
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
