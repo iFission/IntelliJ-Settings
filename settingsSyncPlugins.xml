@@ -195,6 +195,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.blai30.lotus.theme">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.daniel-espinoza.inline-error">
           <value>
             <PluginData>
