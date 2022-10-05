@@ -1,5 +1,6 @@
 <application>
   <component name="LogItSettings">
     <option name="pattern" value="println(&quot;{FN}:{LN} ~ $$: &quot; + $$.toString())" />
+    <option name="version" value="v2022.21" />
   </component>
 </application>
