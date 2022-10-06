@@ -530,12 +530,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl k" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift meta o" />
