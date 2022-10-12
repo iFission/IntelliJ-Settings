@@ -41,6 +41,8 @@
   <action id="ActivateGradleToolWindow">
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -795,6 +797,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="Vcs.ToggleAmendCommitMode" />
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="meta alt back_slash" />
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
