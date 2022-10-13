@@ -41,6 +41,8 @@
   <action id="ActivateGradleToolWindow">
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -810,10 +812,12 @@
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 3" />
   </action>
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 4" />
   </action>
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="meta alt back_slash" />

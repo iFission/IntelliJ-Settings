@@ -3,7 +3,7 @@
     <property name="created">2022-10-04T11:02:02</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.1.2.0.0</property>
-    <property name="modified">2022-10-04T11:35:52</property>
+    <property name="modified">2022-10-13T10:14:36</property>
     <property name="originalScheme">_@user_Lotus Dark</property>
   </metaInfo>
   <colors>
@@ -200,9 +200,7 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="4b1515" />
-      </value>
+      <value />
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
@@ -507,7 +505,6 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="e91e63" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
