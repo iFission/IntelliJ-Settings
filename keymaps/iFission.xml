@@ -729,12 +729,15 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
   </action>
+  <action id="Terminal.SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="TerminalNewSession">
-    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="TerminalSplitActionBase$Horizontal">
     <keyboard-shortcut first-keystroke="shift meta d" />
