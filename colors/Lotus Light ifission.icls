@@ -1,16 +1,11 @@
 <scheme name="Lotus Light ifission" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2022-10-04T10:48:42</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-10-04T10:50:40</property>
+    <property name="modified">2022-10-06T17:03:32</property>
     <property name="originalScheme">_@user_Lotus Light</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
