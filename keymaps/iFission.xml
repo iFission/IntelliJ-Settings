@@ -367,10 +367,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
     <keyboard-shortcut first-keystroke="shift meta 2" />
   </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="meta t" />
-    <keyboard-shortcut first-keystroke="ctrl t" />
-  </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
@@ -736,6 +732,9 @@
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="TerminalNewSession">
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="TerminalSplitActionBase$Horizontal">
     <keyboard-shortcut first-keystroke="shift meta d" />
