@@ -94,6 +94,10 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta a" />
+  </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
@@ -448,8 +452,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift meta alt up" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta 2" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl 2" />
@@ -729,7 +737,16 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Run">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="Terminal.SplitVertically">
+    <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="Terminal.SwitchFocusToEditor">
@@ -737,6 +754,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="TerminalNewSession">
+    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="TerminalSplitActionBase$Horizontal">
@@ -800,7 +819,6 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
-  <action id="Vcs.ToggleAmendCommitMode" />
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 3" />
