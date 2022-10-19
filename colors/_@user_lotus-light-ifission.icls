@@ -3,7 +3,7 @@
     <property name="created">2022-10-19T10:50:20</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-10-19T11:22:21</property>
+    <property name="modified">2022-10-19T11:37:19</property>
     <property name="originalScheme">lotus-light-ifission</property>
   </metaInfo>
   <colors>
@@ -322,6 +322,11 @@
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="939393" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
