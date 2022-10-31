@@ -63,7 +63,6 @@
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="SHOW_PINNED_TABS_IN_A_SEPARATE_ROW" value="true" />
-    <option name="SHOW_STATUS_BAR" value="false" />
     <option name="smoothScrolling" value="false" />
   </component>
 </application>
