@@ -53,6 +53,7 @@
     </nesting-rules>
   </component>
   <component name="UISettings">
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_TAB_BUTTON_ON_THE_RIGHT" value="false" />
     <option name="compactTreeIndents" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="100" />
