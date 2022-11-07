@@ -98,6 +98,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt a" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta a" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
@@ -292,6 +293,7 @@
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
     <keyboard-shortcut first-keystroke="shift alt g" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -716,6 +718,7 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
   </action>
+  <action id="TabShiftActions.ToggleMaximizeRestore" />
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
@@ -821,6 +824,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.RollbackChangedLines">
     <keyboard-shortcut first-keystroke="meta alt z" />
     <keyboard-shortcut first-keystroke="ctrl alt z" />
