@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*test.kt</mask>
     <mask>*rule.kt</mask>
+    <mask>*test.kt</mask>
   </component>
 </application>
