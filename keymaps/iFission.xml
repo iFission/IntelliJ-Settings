@@ -605,6 +605,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="s" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta 4" />
     <keyboard-shortcut first-keystroke="ctrl 4" />
@@ -867,10 +870,17 @@
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="hg4idea.QGotoFromPatches" />
+  <action id="openAssertEqualsDiff">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl d" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="org.jetbrains.security.toolwindow.tree.actions.NavigateToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl e" />
+  </action>
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
     <keyboard-shortcut first-keystroke="meta p" />
