@@ -1,4 +1,10 @@
 <code_scheme name="solex" version="173">
+  <HTMLCodeStyleSettings>
+    <option name="HTML_TEXT_WRAP" value="0" />
+    <option name="HTML_KEEP_LINE_BREAKS" value="false" />
+    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
+    <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  </HTMLCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="2147483647" />
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
