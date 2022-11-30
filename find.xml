@@ -6,5 +6,6 @@
     <mask>*rule.kt</mask>
     <mask>*test.kt</mask>
     <mask>Fund*</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
