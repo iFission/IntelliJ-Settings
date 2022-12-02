@@ -217,6 +217,8 @@
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="meta u" />
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -237,12 +239,12 @@
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta down" />
-    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="meta up" />
-    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorPreviousWord">
@@ -257,7 +259,9 @@
     <keyboard-shortcut first-keystroke="shift meta left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
+  <action id="EditorScrollUp" />
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta l" />
@@ -427,6 +431,15 @@
   <action id="Ktlint.Format">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
+  <action id="List-scrollDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="List-scrollUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
   <action id="Maven.Reimport">
@@ -439,12 +452,14 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
     <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -724,6 +739,15 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
   </action>
   <action id="TabShiftActions.ToggleMaximizeRestore" />
+  <action id="Table-scrollDownChangeSelection">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="Table-scrollUpChangeSelection">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
