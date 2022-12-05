@@ -238,13 +238,13 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl v" />
-    <keyboard-shortcut first-keystroke="meta down" />
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
-    <keyboard-shortcut first-keystroke="meta up" />
     <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorPreviousWord">
@@ -434,11 +434,6 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl v" />
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="List-scrollUp">
-    <keyboard-shortcut first-keystroke="page_up" />
-    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
@@ -454,12 +449,13 @@
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift meta down" />
     <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="shift meta up" />
     <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -743,11 +739,6 @@
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl v" />
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="Table-scrollUpChangeSelection">
-    <keyboard-shortcut first-keystroke="page_up" />
-    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
@@ -897,6 +888,7 @@
   <action id="hg4idea.QGotoFromPatches" />
   <action id="openAssertEqualsDiff">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta d" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
