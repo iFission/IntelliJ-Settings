@@ -141,6 +141,9 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Compile" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="CompileFile" />
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CloneColumn" />
