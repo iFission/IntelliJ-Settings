@@ -136,10 +136,15 @@
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="g" />
+  </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
   </action>
-  <action id="CompareTwoFiles" />
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift c" />
+  </action>
   <action id="Compile" />
   <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="shift meta s" />
@@ -355,9 +360,6 @@
   <action id="Git.Add">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl a" />
-  </action>
-  <action id="Git.Stage.ThreeSideDiff">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="g" />
   </action>
   <action id="GitToolBox.BlameDetails">
     <keyboard-shortcut first-keystroke="alt b" />
