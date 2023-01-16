@@ -41,6 +41,8 @@
   <action id="ActivateGradleToolWindow">
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -92,6 +94,11 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta a" />
+  </action>
+  <action id="ChangesView.Move" />
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
@@ -104,6 +111,7 @@
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta alt e" />
     <keyboard-shortcut first-keystroke="ctrl alt e" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt e" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="w" />
@@ -123,17 +131,24 @@
   <action id="CodeGlance.toggle" />
   <action id="CollapseAllRegions" />
   <action id="CollapseSelection" />
-  <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="ctrl slash" />
-  </action>
+  <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="g" />
   </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
   </action>
-  <action id="CompareTwoFiles" />
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift c" />
+  </action>
   <action id="Compile" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="CompileFile" />
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CloneColumn" />
@@ -169,6 +184,7 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="meta button1" />
@@ -210,6 +226,8 @@
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="meta u" />
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -229,13 +247,13 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl v" />
-    <keyboard-shortcut first-keystroke="meta down" />
-    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
-    <keyboard-shortcut first-keystroke="meta up" />
-    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorPreviousWord">
@@ -250,7 +268,9 @@
     <keyboard-shortcut first-keystroke="shift meta left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
+  <action id="EditorScrollUp" />
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta l" />
@@ -285,6 +305,8 @@
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
+    <keyboard-shortcut first-keystroke="shift alt g" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -365,10 +387,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
     <keyboard-shortcut first-keystroke="shift meta 2" />
   </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="meta t" />
-    <keyboard-shortcut first-keystroke="ctrl t" />
-  </action>
+  <action id="GotoFile" />
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
@@ -400,11 +419,18 @@
   </action>
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="Graph.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="GuiDesigner.QuickJavadoc">
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="IncrementalSearch" />
   <action id="InvalidateCaches">
@@ -414,10 +440,15 @@
   <action id="Ktlint.Format">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
+  <action id="List-scrollDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="Markdown.Styling.CreateLink" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="MaximizeEditorInSplit">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -425,12 +456,15 @@
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
-    <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
@@ -449,8 +483,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift meta alt up" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta 2" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl 2" />
@@ -470,6 +508,10 @@
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 3" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -494,6 +536,10 @@
   </action>
   <action id="PackageFile" />
   <action id="PerforceDirect.Edit" />
+  <action id="PinActiveTabToggle">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl t" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta t" />
+  </action>
   <action id="PlaybackLastMacro" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
@@ -530,12 +576,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl k" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift meta o" />
@@ -553,6 +599,7 @@
   </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="RerunTests" />
   <action id="ResizeToolWindowLeft">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl z" />
@@ -578,6 +625,9 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
     <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="s" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta 4" />
@@ -694,6 +744,11 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl i" />
   </action>
+  <action id="TabShiftActions.ToggleMaximizeRestore" />
+  <action id="Table-scrollDownChangeSelection">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="Table-selectLastRow" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
@@ -730,9 +785,25 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl w" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Run">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="Terminal.SplitVertically">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="Terminal.SwitchFocusToEditor">
-    <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="TerminalNewSession">
+    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="TerminalSplitActionBase$Horizontal">
     <keyboard-shortcut first-keystroke="shift meta d" />
@@ -782,6 +853,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.RollbackChangedLines">
     <keyboard-shortcut first-keystroke="meta alt z" />
     <keyboard-shortcut first-keystroke="ctrl alt z" />
@@ -794,6 +866,16 @@
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 3" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 4" />
   </action>
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="meta alt back_slash" />
@@ -812,10 +894,19 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="hg4idea.QGotoFromPatches" />
+  <action id="openAssertEqualsDiff">
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta d" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="org.jetbrains.security.toolwindow.tree.actions.NavigateToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl e" />
+  </action>
   <action id="org.lso.logit.addLog">
     <keyboard-shortcut first-keystroke="alt l" />
     <keyboard-shortcut first-keystroke="meta p" />

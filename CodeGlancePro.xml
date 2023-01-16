@@ -2,6 +2,7 @@
   <component name="CodeGlance Pro">
     <option name="hideOriginalScrollBar" value="true" />
     <option name="pixelsPerLine" value="3" />
-    <option name="width" value="80" />
+    <option name="singleFileVisibleButton" value="false" />
+    <option name="width" value="111" />
   </component>
 </application>

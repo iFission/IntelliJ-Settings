@@ -1,16 +1,18 @@
 <scheme name="_@user_Lotus Light" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-10-04T10:58:31</property>
+    <property name="created">2022-10-19T11:13:37</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.1.2.0.0</property>
-    <property name="modified">2022-10-04T10:59:47</property>
+    <property name="ideVersion">2022.2.0.0</property>
+    <property name="modified">2022-10-19T11:21:17</property>
     <property name="originalScheme">Lotus Light</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -921,9 +923,6 @@
       <value>
         <option name="FOREGROUND" value="ffd866" />
       </value>
-    </option>
-    <option name="HTML_CODE">
-      <value />
     </option>
     <option name="HTML_TAG">
       <value>
@@ -2076,7 +2075,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="BACKGROUND" value="c2f7e6" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>

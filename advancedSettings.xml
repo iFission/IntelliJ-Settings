@@ -2,11 +2,11 @@
   <component name="AdvancedSettings">
     <option name="settings">
       <map>
+        <entry key="compiler.automake.allow.when.app.running" value="true" />
         <entry key="confirm.rerun.with.termination" value="false" />
         <entry key="editor.comment.line.caret.down" value="false" />
         <entry key="editor.maximize.in.splits.on.double.click" value="true" />
         <entry key="editor.skip.copy.and.cut.for.empty.selection" value="true" />
-        <entry key="show.diff.as.editor.tab" value="false" />
       </map>
     </option>
   </component>
