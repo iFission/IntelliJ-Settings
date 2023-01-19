@@ -11,5 +11,7 @@
     <mask>*.yml</mask>
     <mask>*fund*</mask>
     <mask>!*Fund*</mask>
+    <mask>*Fund*</mask>
+    <mask>*Test*</mask>
   </component>
 </application>
