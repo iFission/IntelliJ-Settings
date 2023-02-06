@@ -509,6 +509,7 @@
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="f7" />
