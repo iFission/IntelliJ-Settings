@@ -625,6 +625,8 @@
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta q" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="quote" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta e" />
@@ -656,6 +658,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta d" />
     <keyboard-shortcut first-keystroke="shift ctrl d" />
     <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt d" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl meta alt d" />
