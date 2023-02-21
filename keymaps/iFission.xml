@@ -302,6 +302,10 @@
     <keyboard-shortcut first-keystroke="meta e" />
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta e" />
+  </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
@@ -560,6 +564,11 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta t" />
   </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+    <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta e" />
+  </action>
   <action id="QuickImplementations">
     <mouse-shortcut keystroke="alt button1" />
     <keyboard-shortcut first-keystroke="ctrl 5" />
@@ -682,6 +691,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta 1" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl 1" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl meta alt w" />
   </action>
   <action id="StretchSplitToLeft">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta z" />
