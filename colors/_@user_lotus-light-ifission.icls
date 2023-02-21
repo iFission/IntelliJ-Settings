@@ -3,7 +3,7 @@
     <property name="created">2022-10-19T10:50:20</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-10-19T11:37:19</property>
+    <property name="modified">2023-02-21T16:51:26</property>
     <property name="originalScheme">lotus-light-ifission</property>
   </metaInfo>
   <colors>
@@ -482,7 +482,7 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="e91e63" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -2772,6 +2772,7 @@
       <value>
         <option name="FOREGROUND" value="403e41" />
         <option name="BACKGROUND" value="f8e71c" />
+        <option name="ERROR_STRIPE_COLOR" value="ada113" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
