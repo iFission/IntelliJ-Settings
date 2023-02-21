@@ -2,12 +2,16 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*rule.kt</mask>
     <mask>*test.kt</mask>
     <mask>Fund*</mask>
     <mask>*.yml</mask>
-    <mask>!*Fund*</mask>
     <mask>*fund*</mask>
+    <mask>!*Fund*</mask>
+    <mask>*Fund*</mask>
+    <mask>*Test*</mask>
   </component>
 </application>

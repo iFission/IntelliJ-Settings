@@ -128,7 +128,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="^expected" />
+                      <option name="grepExpression" value="^expected:" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                       <option name="style">
@@ -144,7 +144,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="^but" />
+                      <option name="grepExpression" value="but\ was:" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                       <option name="style">

@@ -29,7 +29,6 @@
     <settingsMapElement>
       <kotlin.kotlin.references.types.hints>
         <Settings>
-          <option name="localVariableType" value="true" />
           <option name="parameterType" value="true" />
         </Settings>
       </kotlin.kotlin.references.types.hints>
