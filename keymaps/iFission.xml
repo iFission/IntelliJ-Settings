@@ -627,7 +627,6 @@
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta q" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="quote" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
@@ -705,6 +704,7 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
