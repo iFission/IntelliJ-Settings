@@ -702,6 +702,10 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta 1" />
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl 1" />
   </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
   </action>
