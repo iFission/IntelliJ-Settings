@@ -585,6 +585,8 @@
     <mouse-shortcut keystroke="alt button1" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta e" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="QuickImplementations">
     <mouse-shortcut keystroke="alt button1" />
