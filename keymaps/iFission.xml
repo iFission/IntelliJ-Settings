@@ -418,12 +418,12 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 2" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl 1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
@@ -857,7 +857,6 @@
   <action id="TerminalSplitActionBase$Vertical">
     <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
   </action>
   <action id="TextSearchAction" />
   <action id="ToggleBookmark1" />
