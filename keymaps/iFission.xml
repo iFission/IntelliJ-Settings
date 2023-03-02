@@ -172,6 +172,11 @@
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
@@ -937,6 +942,7 @@
   <action id="hg4idea.QGotoFromPatches" />
   <action id="openAssertEqualsDiff">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta d" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
