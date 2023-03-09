@@ -1,15 +1,10 @@
-<scheme name="_@user_lotus-light-ifission" version="142" parent_scheme="Default">
+<scheme name="lotus-light-ifission copy" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2022-10-19T10:50:20</property>
-    <property name="description" />
+    <property name="created">2023-03-09T14:35:06</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2023-03-09T18:04:12</property>
-    <property name="originalScheme">lotus-light-ifission</property>
-    <property name="vendorMail" />
-    <property name="vendorName" />
-    <property name="vendorUrl">http://</property>
-    <property name="version">0.1</property>
+    <property name="ideVersion">2022.2.4.0.0</property>
+    <property name="modified">2023-03-09T18:04:34</property>
+    <property name="originalScheme">_@user_lotus-light-ifission</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
@@ -21,27 +16,9 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="e5d2e5" />
-    <option name="FILESTATUS_ADDED" value="a9dc76" />
     <option name="FILESTATUS_COPIED" value="a9dc76" />
-    <option name="FILESTATUS_DELETED" value="727072" />
-    <option name="FILESTATUS_HIJACKED" value="ffd866" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="727072" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="a9dc76" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="FILESTATUS_MERGED" value="ab9df2" />
-    <option name="FILESTATUS_MODIFIED" value="78dce8" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="78dce8" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="78dce8" />
-    <option name="FILESTATUS_SUPPRESSED" value="727072" />
-    <option name="FILESTATUS_SWITCHED" value="ab9df2" />
-    <option name="FILESTATUS_UNKNOWN" value="f59762" />
-    <option name="FILESTATUS_addedOutside" value="a9dc76" />
-    <option name="FILESTATUS_changelistConflict" value="f65f87" />
-    <option name="FILESTATUS_modifiedOutside" value="78dce8" />
     <option name="GUTTER_BACKGROUND" value="" />
     <option name="INDENT_GUIDE" value="ffd0fb" />
     <option name="INFORMATION_HINT" value="e5d2e5" />
@@ -203,6 +180,9 @@
         <option name="BACKGROUND" value="ccc8d6" />
       </value>
     </option>
+    <option name="BREAKPOINT_ATTRIBUTES">
+      <value />
+    </option>
     <option name="BROWSEWORDATCARET">
       <value>
         <option name="FOREGROUND" value="78dce8" />
@@ -340,6 +320,11 @@
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="939393" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
