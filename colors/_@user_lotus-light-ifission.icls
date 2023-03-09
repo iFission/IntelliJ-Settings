@@ -3,7 +3,7 @@
     <property name="created">2022-10-19T10:50:20</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-10-19T11:37:19</property>
+    <property name="modified">2023-03-09T14:34:44</property>
     <property name="originalScheme">lotus-light-ifission</property>
   </metaInfo>
   <colors>
@@ -181,9 +181,7 @@
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="4b1515" />
-      </value>
+      <value />
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
