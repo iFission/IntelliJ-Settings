@@ -1,10 +1,15 @@
 <scheme name="_@user_lotus-light-ifission" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="created">2022-10-19T10:50:20</property>
+    <property name="description" />
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2023-03-09T14:34:44</property>
+    <property name="modified">2023-03-09T14:40:09</property>
     <property name="originalScheme">lotus-light-ifission</property>
+    <property name="vendorMail" />
+    <property name="vendorName" />
+    <property name="vendorUrl">http://</property>
+    <property name="version">0.1</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
