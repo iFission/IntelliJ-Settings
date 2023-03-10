@@ -3,7 +3,7 @@
     <property name="created">2023-03-09T17:44:10</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2023-03-10T10:16:14</property>
+    <property name="modified">2023-03-10T10:29:34</property>
     <property name="originalScheme">lotus-light-ifission</property>
   </metaInfo>
   <colors>
@@ -358,6 +358,11 @@
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
         <option name="FOREGROUND" value="57a3ad" />
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="656565" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -2783,7 +2788,6 @@
       <value>
         <option name="FOREGROUND" value="403e41" />
         <option name="BACKGROUND" value="f8e71c" />
-        <option name="ERROR_STRIPE_COLOR" value="ada113" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
