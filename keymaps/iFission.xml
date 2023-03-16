@@ -929,6 +929,7 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl x" />
