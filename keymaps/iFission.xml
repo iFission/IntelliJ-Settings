@@ -113,10 +113,12 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="alt r" />
     <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta alt e" />
     <keyboard-shortcut first-keystroke="ctrl alt e" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt e" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="w" />
