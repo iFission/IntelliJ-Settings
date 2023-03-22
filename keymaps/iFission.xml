@@ -108,6 +108,7 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
   </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="meta alt r" />
