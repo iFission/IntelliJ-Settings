@@ -2,6 +2,7 @@
   <component name="GitToolBoxAppSettings2">
     <option name="absoluteDateTimeStyle" value="ISO_8601" />
     <option name="blameInlineAuthorNameType" value="FULL" />
+    <option name="showEditorInlineBlame" value="false" />
     <option name="version" value="6" />
   </component>
 </application>
