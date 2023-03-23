@@ -570,6 +570,7 @@
   <action id="PerforceDirect.Edit" />
   <action id="PinActiveTabToggle">
     <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="shift ctrl t" />
+    <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta t" />
   </action>
   <action id="PlaybackLastMacro" />
   <action id="PreviousTab">
