@@ -544,6 +544,7 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 3" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 3" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -573,6 +574,10 @@
     <keyboard-shortcut first-keystroke="meta j" second-keystroke="shift meta t" />
   </action>
   <action id="PlaybackLastMacro" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 4" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
