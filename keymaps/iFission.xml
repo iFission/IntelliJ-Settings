@@ -942,7 +942,6 @@
   </action>
   <action id="android.deploy.CodeSwap" />
   <action id="com.dubreuia.core.action.ShortcutAction">
-    <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="hg4idea.QGotoFromPatches" />
