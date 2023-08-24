@@ -1,10 +1,10 @@
-<scheme name="_@user_lotus-dark-ifission" version="142" parent_scheme="Darcula">
+<scheme name="Lotus Dark ifission" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-10-19T10:50:20</property>
+    <property name="created">2022-10-04T11:02:02</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2023-02-22T10:00:10</property>
-    <property name="originalScheme">lotus-dark-ifission</property>
+    <property name="ideVersion">2022.1.2.0.0</property>
+    <property name="modified">2022-10-13T10:14:36</property>
+    <property name="originalScheme">_@user_Lotus Dark</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
@@ -16,13 +16,27 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="222222" />
+    <option name="FILESTATUS_ADDED" value="a9dc76" />
     <option name="FILESTATUS_COPIED" value="a9dc76" />
-    <option name="FILESTATUS_HIJACKED" value="" />
+    <option name="FILESTATUS_DELETED" value="727072" />
+    <option name="FILESTATUS_HIJACKED" value="ffd866" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="727072" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="a9dc76" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="FILESTATUS_NOT_CHANGED" value="a2a9aa" />
-    <option name="FILESTATUS_SUPPRESSED" value="" />
-    <option name="FILESTATUS_SWITCHED" value="" />
+    <option name="FILESTATUS_MERGED" value="ab9df2" />
+    <option name="FILESTATUS_MODIFIED" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="78dce8" />
+    <option name="FILESTATUS_SUPPRESSED" value="727072" />
+    <option name="FILESTATUS_SWITCHED" value="ab9df2" />
+    <option name="FILESTATUS_UNKNOWN" value="f59762" />
+    <option name="FILESTATUS_addedOutside" value="a9dc76" />
+    <option name="FILESTATUS_changelistConflict" value="f65f87" />
+    <option name="FILESTATUS_modifiedOutside" value="78dce8" />
     <option name="GUTTER_BACKGROUND" value="10611" />
     <option name="INDENT_GUIDE" value="333333" />
     <option name="INFORMATION_HINT" value="222222" />
