@@ -87,6 +87,9 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="ChangesView.RemoveDeleted">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
+  </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="alt r" />
@@ -345,6 +348,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="meta 2" />
@@ -549,10 +553,6 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
     <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="meta 4" />
-    <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
