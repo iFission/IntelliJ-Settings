@@ -75,6 +75,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift meta j" />
     <keyboard-shortcut first-keystroke="shift ctrl j" />
+    <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="BreakpointActionsGroup">
     <keyboard-shortcut first-keystroke="meta b" />
@@ -325,6 +326,7 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="shift meta l" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -340,6 +342,7 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
+  <action id="GotoBookmark4" />
   <action id="GotoBookmark9" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="button2" />
@@ -349,6 +352,7 @@
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="meta 2" />
@@ -361,12 +365,12 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 2" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl 1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
@@ -709,6 +713,16 @@
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 3" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 4" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 4" />
   </action>
   <action id="ViewStatusBar">
     <keyboard-shortcut first-keystroke="meta alt back_slash" />
